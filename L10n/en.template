@@ -33,6 +33,12 @@
 /* companion.py: Failed to get Access Token from Frontier Auth service; In files: companion.py:508; */
 "Error: unable to get token" = "Error: unable to get token";
 
+/* companion.py: Messagebox title authentication successful; In files: companion.py:672; */
+"Authentication Successful" = "Authentication Successful";
+
+/* companion.py: Messagebox body after successful CAPI authentication; In files: companion.py:676; */
+"Authentication with cAPI Successful.{CR}You may now close the Frontier login tab if it is still open." = "Authentication with cAPI Successful.{CR}You may now close the Frontier login tab if it is still open.";
+
 /* EDMarketConnector.py: EDMC Critical Error Notification; */
 "EDMC encountered a critical error, and cannot recover. EDMC is shutting down for its own protection!" = "EDMC encountered a critical error, and cannot recover. EDMC is shutting down for its own protection!";
 
@@ -270,6 +276,12 @@
 /* coriolis.py: 'Normal' label for Coriolis site override selection; coriolis.py: Coriolis normal/beta selection - normal; In files: coriolis.py:49; coriolis.py:75; coriolis.py:95; coriolis.py:121; coriolis.py:137; coriolis.py:180; */
 "Normal" = "Normal";
 
+/* coriolis.py: Settings>Coriolis: API key label */
+"Coriolis CMDR API Key" = "Coriolis CMDR API Key";
+
+/* coriolis.py: Settings>Coriolis: checkbox to enable sending data to Coriolis CMDR */
+"Send ship, module, and material data to Coriolis CMDR" = "Send ship, module, and material data to Coriolis CMDR";
+
 /* coriolis.py: 'Beta' label for Coriolis site override selection; coriolis.py: Coriolis normal/beta selection - beta; In files: coriolis.py:50; coriolis.py:76; coriolis.py:96; coriolis.py:122; coriolis.py:138; coriolis.py:181; */
 "Beta" = "Beta";
 
@@ -345,7 +357,7 @@
 /* inara.py: Checkbox to enable INARA API Usage; In files: inara.py:257; */
 "Send flight log and Cmdr status to Inara" = "Send flight log and Cmdr status to Inara";
 
-/* inara.py: Text for INARA API keys link ( goes to https://inara.cz/settings-api ); In files: inara.py:269; */
+/* inara.py: Text for INARA API keys link ( goes to https://inara.cz/elite/cmdr-settings-api/ ); In files: inara.py:269; */
 "Inara credentials" = "Inara credentials";
 
 /* inara.py: The Inara API only accepts Live galaxy data, not Legacy galaxy data; inara.py: Inara - Only Live data; In files: inara.py:384; inara.py:386; */
